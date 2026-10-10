@@ -87,8 +87,9 @@ the reference.)
 
 ## Citation
 
-> Authors (to be completed). *Temporal Focus Memory for Stable Real-Time Object Detection of
-> Ship Wall-Climbing Robots.* Under review, Intelligent Marine Technology and Systems.
+> Yimeng Chai, Xiaoyi Wang, Linrui Fu, Xin Li. *Temporal Focus Memory for Stable
+> Real-Time Object Detection of Ship Wall-Climbing Robots.* Under review, Intelligent Marine
+> Technology and Systems.
 
 *Raw result files are archived exactly as produced by the released code; the manuscript's
 number audit (`code/audit_numbers.py`) recomputes every reported value from these files.*
