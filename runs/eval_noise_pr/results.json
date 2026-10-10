@@ -1,0 +1,28 @@
+{
+  "sigma5": {
+    "tag": "TFM sigma=5.0",
+    "TP_stability": 0.6733590733590734,
+    "tp_kept": 1744,
+    "tp_prev": 2590,
+    "flicker_1frame": 630,
+    "miss_runs": 3506,
+    "mAP50": null,
+    "mAP50_95": null,
+    "precision@0.5": 0.5511728475953348,
+    "recall@0.5": 0.34588815789473687,
+    "out_per_frame": 3.1795833333333334
+  },
+  "sigma15": {
+    "tag": "TFM sigma=15.0",
+    "TP_stability": 0.5940553745928339,
+    "tp_kept": 1459,
+    "tp_prev": 2456,
+    "flicker_1frame": 659,
+    "miss_runs": 3657,
+    "mAP50": null,
+    "mAP50_95": null,
+    "precision@0.5": 0.5476945244956772,
+    "recall@0.5": 0.3166180758017493,
+    "out_per_frame": 2.8916666666666666
+  }
+}

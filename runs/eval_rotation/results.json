@@ -1,0 +1,30 @@
+{
+  "dtheta_deg_per_frame": 0.5,
+  "cumulative_deg_12frames": 6.0,
+  "alignment": "translation-only (motion-gt stride); rotation unmodeled",
+  "on": {
+    "TP_stability": 0.6282467532467533,
+    "tp_kept": 774,
+    "tp_prev": 1232,
+    "flicker_1frame": 356,
+    "miss_runs": 5227,
+    "precision@0.5": 0.5757575757575758,
+    "recall@0.5": 0.2309445429222588
+  },
+  "off": {
+    "TP_stability": 0.405086285195277,
+    "tp_kept": 446,
+    "tp_prev": 1101,
+    "flicker_1frame": 370,
+    "miss_runs": 5511,
+    "precision@0.5": 0.5827338129496403,
+    "recall@0.5": 0.1870029927319367
+  },
+  "gain_pct": 55.08961330149673,
+  "fisher_p": 3.6344339130963434e-27,
+  "clean_reference": {
+    "on": 0.7244,
+    "off": 0.5064,
+    "gain_pct": 43.0
+  }
+}

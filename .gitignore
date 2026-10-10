@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pt
+*.pth
+*.log
+data/
+third_party/
+yolo_runs/
+figures_sci/
+*.zip

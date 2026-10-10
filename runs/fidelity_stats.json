@@ -1,0 +1,64 @@
+{
+  "per_image": {
+    "real": [
+      {
+        "lum_std": 39.41833827324674,
+        "edge_density_pct": 46.441650390625,
+        "glcm_contrast": 2.2511891009467515,
+        "glcm_homogeneity": 0.6688108827930352
+      },
+      {
+        "lum_std": 39.43851539993169,
+        "edge_density_pct": 33.16650390625,
+        "glcm_contrast": 1.7970409367791236,
+        "glcm_homogeneity": 0.742257779929359
+      },
+      {
+        "lum_std": 34.72236443146022,
+        "edge_density_pct": 26.6845703125,
+        "glcm_contrast": 1.2280164029459824,
+        "glcm_homogeneity": 0.7805135936222769
+      }
+    ],
+    "sim": [
+      {
+        "lum_std": 8.02715436034461,
+        "edge_density_pct": 1.29852294921875,
+        "glcm_contrast": 0.21460664167627835,
+        "glcm_homogeneity": 0.9050665121287486
+      },
+      {
+        "lum_std": 12.109515284669746,
+        "edge_density_pct": 2.96478271484375,
+        "glcm_contrast": 0.34443354118608227,
+        "glcm_homogeneity": 0.9110401754621281
+      },
+      {
+        "lum_std": 8.915372487181102,
+        "edge_density_pct": 3.2012939453125,
+        "glcm_contrast": 0.31535387531237985,
+        "glcm_homogeneity": 0.9122953565062005
+      }
+    ]
+  },
+  "mean": {
+    "real": {
+      "lum_std": 37.85973936821288,
+      "edge_density_pct": 35.430908203125,
+      "glcm_contrast": 1.758748813557286,
+      "glcm_homogeneity": 0.730527418781557
+    },
+    "sim": {
+      "lum_std": 9.684014044065153,
+      "edge_density_pct": 2.4881998697916665,
+      "glcm_contrast": 0.2914646860582468,
+      "glcm_homogeneity": 0.9094673480323591
+    },
+    "rel_diff_pct": {
+      "lum_std": -74.42133990970927,
+      "edge_density_pct": -92.97731840367499,
+      "glcm_contrast": -83.42772522082198,
+      "glcm_homogeneity": 24.494621919770655
+    }
+  }
+}

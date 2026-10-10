@@ -1,0 +1,62 @@
+{
+  "source": "runs/eval_e2e_unsup/results.json",
+  "ckpt": "../runs/e2e_unsup/ep7.pt",
+  "per_split": {
+    "test": {
+      "on": {
+        "kept": 37,
+        "prev": 61,
+        "stability": 0.6065573770491803
+      },
+      "off": {
+        "kept": 37,
+        "prev": 60,
+        "stability": 0.6166666666666667
+      },
+      "gain_pct": -1.6393442622950838,
+      "fisher_p": 1.0
+    },
+    "test_hard": {
+      "on": {
+        "kept": 60,
+        "prev": 139,
+        "stability": 0.4316546762589928
+      },
+      "off": {
+        "kept": 60,
+        "prev": 139,
+        "stability": 0.4316546762589928
+      },
+      "gain_pct": 0.0,
+      "fisher_p": 1.0
+    },
+    "testbig": {
+      "on": {
+        "kept": 1615,
+        "prev": 2775,
+        "stability": 0.581981981981982
+      },
+      "off": {
+        "kept": 1608,
+        "prev": 2760,
+        "stability": 0.5826086956521739
+      },
+      "gain_pct": -0.10757025682397447,
+      "fisher_p": 0.9782577764074223
+    }
+  },
+  "pooled": {
+    "on": {
+      "kept": 1712,
+      "prev": 2975,
+      "stability": 0.5754621848739496
+    },
+    "off": {
+      "kept": 1705,
+      "prev": 2959,
+      "stability": 0.5762081784386617
+    },
+    "gain_pct": -0.12946597994034637,
+    "fisher_p": 0.9581127149144708
+  }
+}

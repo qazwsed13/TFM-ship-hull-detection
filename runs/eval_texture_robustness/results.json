@@ -1,0 +1,77 @@
+{
+  "calibration": {
+    "L1_moderate": {
+      "edge_density_pct": 5.4241180419921875,
+      "glcm_contrast": 0.769402956495098,
+      "amp": 0.1,
+      "sig": 0.03137254901960784
+    },
+    "L2_heavy": {
+      "edge_density_pct": 32.83500671386719,
+      "glcm_contrast": 1.509365425857843,
+      "amp": 0.22,
+      "sig": 0.06274509803921569
+    }
+  },
+  "clean_reference": {
+    "tfm_on": 0.7244,
+    "tfm_off": 0.5064,
+    "gain_pct": 43.0
+  },
+  "L1_moderate": {
+    "on": 0.6422584913983238,
+    "off": 0.43164747120681024,
+    "gain_pct": 48.7923674387996,
+    "fisher_p": 2.7832821928835766e-43,
+    "flicker_on": 601,
+    "flicker_off": 667,
+    "on_full": {
+      "TP_stability": 0.6422584913983238,
+      "tp_kept": 1456,
+      "tp_prev": 2267,
+      "flicker_1frame": 601,
+      "miss_runs": 3597,
+      "precision@0.5": 0.5559440559440559,
+      "recall@0.5": 0.3036870951669158,
+      "out_per_frame": 2.7408333333333332
+    },
+    "off_full": {
+      "TP_stability": 0.43164747120681024,
+      "tp_kept": 862,
+      "tp_prev": 1997,
+      "flicker_1frame": 667,
+      "miss_runs": 3920,
+      "precision@0.5": 0.540007513148009,
+      "recall@0.5": 0.24385072094995758,
+      "out_per_frame": 2.2183333333333333
+    }
+  },
+  "L2_heavy": {
+    "on": 0.4083333333333333,
+    "off": 0.1492063492063492,
+    "gain_pct": 173.67021276595747,
+    "fisher_p": 5.777685099681438e-14,
+    "flicker_on": 113,
+    "flicker_off": 115,
+    "on_full": {
+      "TP_stability": 0.4083333333333333,
+      "tp_kept": 147,
+      "tp_prev": 360,
+      "flicker_1frame": 113,
+      "miss_runs": 3713,
+      "precision@0.5": 0.505671077504726,
+      "recall@0.5": 0.0462442734894978,
+      "out_per_frame": 0.44083333333333335
+    },
+    "off_full": {
+      "TP_stability": 0.1492063492063492,
+      "tp_kept": 47,
+      "tp_prev": 315,
+      "flicker_1frame": 115,
+      "miss_runs": 3767,
+      "precision@0.5": 0.49483352468427094,
+      "recall@0.5": 0.03729341524617115,
+      "out_per_frame": 0.36291666666666667
+    }
+  }
+}

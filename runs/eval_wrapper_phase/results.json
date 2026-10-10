@@ -1,0 +1,55 @@
+{
+  "phase_table": {
+    "mean_dx": 118.31661731274818,
+    "std_dx": 42.64310767958842,
+    "mean_dy": -0.562798849862862,
+    "std_dy": 37.424810398227045,
+    "n": 2200
+  },
+  "wrapper_phase": {
+    "tag": "wrapper+phase",
+    "TP_stability": 0.7272727272727273,
+    "tp_kept": 1944,
+    "tp_prev": 2673,
+    "flicker_1frame": 565,
+    "miss_runs": 3399,
+    "mAP50": null,
+    "mAP50_95": null,
+    "precision@0.5": 0.46205611346930325,
+    "recall@0.5": 0.36492232215862636,
+    "out_per_frame": 4.024583333333333
+  },
+  "tfm_phase": {
+    "TP_stability": 0.7218243497926875,
+    "tp_kept": 1915,
+    "tp_prev": 2653
+  },
+  "wrapper_clean": {
+    "tag": "persist(decay.9, no cap)",
+    "TP_stability": 0.7340782122905027,
+    "tp_kept": 1971,
+    "tp_prev": 2685,
+    "flicker_1frame": 557,
+    "miss_runs": 3384,
+    "mAP50": 0.17197708729929195,
+    "mAP50_95": 0.06622584545458252,
+    "precision@0.5": 0.46558872305140964,
+    "recall@0.5": 0.36699346405228755,
+    "out_per_frame": 4.02
+  },
+  "tfm_clean": {
+    "tag": "sanity-memon",
+    "TP_stability": 0.7243975903614458,
+    "tp_kept": 1924,
+    "tp_prev": 2656,
+    "flicker_1frame": 613,
+    "miss_runs": 3393,
+    "mAP50": 0.14717691656593612,
+    "mAP50_95": 0.061552548370985484,
+    "precision@0.5": 0.5591734502191609,
+    "recall@0.5": 0.36422220409495065,
+    "out_per_frame": 3.3270833333333334
+  },
+  "fisher_wrapper_phase_vs_tfm_phase": 0.6676630378035431,
+  "fisher_wrapper_phase_vs_tfm_clean": 0.8298137059361488
+}

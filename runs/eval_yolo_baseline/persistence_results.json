@@ -1,0 +1,41 @@
+{
+  "raw": {
+    "tag": "YOLO raw (no memory)",
+    "TP_stability": 0.9656326034063261,
+    "tp_kept": 6350,
+    "tp_prev": 6576,
+    "flicker_1frame": 127,
+    "miss_runs": 816,
+    "mAP50": 0.7886899549857762,
+    "mAP50_95": 0.6198032900680864,
+    "precision@0.5": 0.7545583149952845,
+    "recall@0.5": 0.8230604372053151,
+    "out_per_frame": 5.301666666666667
+  },
+  "persist": {
+    "tag": "YOLO + persistence (decay.9)",
+    "TP_stability": 0.9770946353224834,
+    "tp_kept": 6484,
+    "tp_prev": 6636,
+    "flicker_1frame": 105,
+    "miss_runs": 742,
+    "mAP50": 0.7625271010841489,
+    "mAP50_95": 0.6045998008057862,
+    "precision@0.5": 0.276569485203368,
+    "recall@0.5": 0.8386560212907518,
+    "out_per_frame": 15.192083333333333
+  },
+  "persist_sig15": {
+    "tag": "YOLO + persistence (sig15px)",
+    "TP_stability": 0.9651442307692307,
+    "tp_kept": 6424,
+    "tp_prev": 6656,
+    "flicker_1frame": 156,
+    "miss_runs": 822,
+    "mAP50": null,
+    "mAP50_95": null,
+    "precision@0.5": 0.14866919611771895,
+    "recall@0.5": 0.8454824632293518,
+    "out_per_frame": 29.32125
+  }
+}

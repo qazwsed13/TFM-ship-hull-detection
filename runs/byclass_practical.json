@@ -1,0 +1,62 @@
+{
+  "per_class": {
+    "rust": {
+      "on": 0.7604327666151468,
+      "off": 0.5562700964630225,
+      "on_kept": 492,
+      "on_prev": 647,
+      "off_kept": 346,
+      "off_prev": 622,
+      "gain_pct": 36.70207538572869,
+      "fisher_p": 1.5189245974222158e-14
+    },
+    "crack": {
+      "on": 0.4715447154471545,
+      "off": 0.4057017543859649,
+      "on_kept": 232,
+      "on_prev": 492,
+      "off_kept": 185,
+      "off_prev": 456,
+      "gain_pct": 16.229400131839157,
+      "fisher_p": 0.042619442281522785
+    },
+    "weld_defect": {
+      "on": 0.6923076923076923,
+      "off": 0.6368159203980099,
+      "on_kept": 144,
+      "on_prev": 208,
+      "off_kept": 128,
+      "off_prev": 201,
+      "gain_pct": 8.713942307692314,
+      "fisher_p": 0.25013976153852246
+    },
+    "peel": {
+      "on": 0.391304347826087,
+      "off": 0.36363636363636365,
+      "on_kept": 9,
+      "on_prev": 23,
+      "off_kept": 8,
+      "off_prev": 22,
+      "gain_pct": 7.608695652173925,
+      "fisher_p": 1.0
+    },
+    "pitting": {
+      "on": 0.8141524105754276,
+      "off": 0.4985479186834463,
+      "on_kept": 1047,
+      "on_prev": 1286,
+      "off_kept": 515,
+      "off_prev": 1033,
+      "gain_pct": 63.30474565522655,
+      "fisher_p": 6.230603499315635e-59
+    }
+  },
+  "practical": {
+    "n_gt_tracks": 3601,
+    "ever_hit_on_pct": 49.37517356289919,
+    "ever_hit_off_pct": 48.569841710635934,
+    "hit_transitions_on": 1924,
+    "hit_transitions_off": 1182,
+    "hit_transition_increase_pct": 62.774957698815555
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "method": "Kalman constant-velocity + two-stage IoU association + coasting (ByteTrack-style) with global motion compensation (GT stride, optional N(0,sigma) noise); no learning. Birth thresholds: conservative (0.4, standard ByteTrack high-score tier) vs open (0.3, all detections).",
+  "variants": {
+    "conservative_births_clean": {
+      "tag": "kalman-iou tracker + GMC [conservative_births_clean]",
+      "TP_stability": 0.8,
+      "tp_kept": 524,
+      "tp_prev": 655,
+      "flicker_1frame": 143,
+      "miss_runs": 3539,
+      "mAP50": 0.051099127249428646,
+      "mAP50_95": 0.019684841413528432,
+      "precision@0.5": 0.44395796847635727,
+      "recall@0.5": 0.08765560165975103,
+      "out_per_frame": 0.9516666666666667
+    },
+    "conservative_births_sig15": {
+      "tag": "kalman-iou tracker + GMC [conservative_births_sig15]",
+      "TP_stability": 0.5161904761904762,
+      "tp_kept": 271,
+      "tp_prev": 525,
+      "flicker_1frame": 176,
+      "miss_runs": 3662,
+      "mAP50": null,
+      "mAP50_95": null,
+      "precision@0.5": 0.3105095541401274,
+      "recall@0.5": 0.06749156355455568,
+      "out_per_frame": 1.0466666666666666
+    },
+    "open_births_clean": {
+      "tag": "kalman-iou tracker + GMC [open_births_clean]",
+      "TP_stability": 0.7018331462775907,
+      "tp_kept": 1876,
+      "tp_prev": 2673,
+      "flicker_1frame": 578,
+      "miss_runs": 3456,
+      "mAP50": 0.136278903995957,
+      "mAP50_95": 0.05281778642714767,
+      "precision@0.5": 0.4548344661258496,
+      "recall@0.5": 0.3447444952222684,
+      "out_per_frame": 3.8008333333333333
+    },
+    "open_births_sig15": {
+      "tag": "kalman-iou tracker + GMC [open_births_sig15]",
+      "TP_stability": 0.5852665852665853,
+      "tp_kept": 1438,
+      "tp_prev": 2457,
+      "flicker_1frame": 658,
+      "miss_runs": 3678,
+      "mAP50": null,
+      "mAP50_95": null,
+      "precision@0.5": 0.3685415629666501,
+      "recall@0.5": 0.3101281729077658,
+      "out_per_frame": 4.185416666666667
+    },
+    "no_gmc_open_births": {
+      "tag": "kalman-iou tracker + GMC [no_gmc_open_births]",
+      "TP_stability": 0.5231619209519762,
+      "tp_kept": 1231,
+      "tp_prev": 2353,
+      "flicker_1frame": 672,
+      "miss_runs": 3776,
+      "mAP50": null,
+      "mAP50_95": null,
+      "precision@0.5": 0.3147963349360428,
+      "recall@0.5": 0.291817340846018,
+      "out_per_frame": 4.5929166666666665
+    }
+  },
+  "references": {
+    "raw_memoff_tp": 0.5064,
+    "tfm_tp": 0.7244,
+    "persistence_tp": 0.7341,
+    "tfm_sig15_tp": 0.5941,
+    "persistence_sig15_tp": 0.5449
+  }
+}

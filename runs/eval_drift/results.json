@@ -1,0 +1,80 @@
+{
+  "off_reference": {
+    "tag": "OFF-reference",
+    "TP_stability": 0.506426735218509,
+    "tp_kept": 1182,
+    "tp_prev": 2334,
+    "flicker_1frame": 675,
+    "miss_runs": 3811,
+    "mAP50": null,
+    "mAP50_95": null,
+    "precision@0.5": 0.5600524332295592,
+    "recall@0.5": 0.2876135981151128,
+    "out_per_frame": 2.5429166666666667
+  },
+  "clean_on_ref": 0.7244,
+  "sig_section": [
+    4.0,
+    8.0
+  ],
+  "drift_sd4": {
+    "on_tfm": {
+      "tag": "TFM-drift sd=4.0",
+      "TP_stability": 0.6293069306930693,
+      "tp_kept": 1589,
+      "tp_prev": 2525,
+      "flicker_1frame": 639,
+      "miss_runs": 3595,
+      "mAP50": null,
+      "mAP50_95": null,
+      "precision@0.5": 0.5491353280263519,
+      "recall@0.5": 0.33123602947263847,
+      "out_per_frame": 3.035833333333333
+    },
+    "wrapper": {
+      "tag": "persist-drift sd=4.0",
+      "TP_stability": 0.5673553719008264,
+      "tp_kept": 1373,
+      "tp_prev": 2420,
+      "flicker_1frame": 653,
+      "miss_runs": 3717,
+      "mAP50": null,
+      "mAP50_95": null,
+      "precision@0.5": 0.3456255185765649,
+      "recall@0.5": 0.3127554851088679,
+      "out_per_frame": 4.519583333333333
+    },
+    "fisher_tfm_vs_wrapper": 8.978114450349107e-06,
+    "fisher_tfm_vs_off": 6.388756975775004e-18
+  },
+  "drift_sd8": {
+    "on_tfm": {
+      "tag": "TFM-drift sd=8.0",
+      "TP_stability": 0.5907052588666939,
+      "tp_kept": 1449,
+      "tp_prev": 2453,
+      "flicker_1frame": 659,
+      "miss_runs": 3662,
+      "mAP50": null,
+      "mAP50_95": null,
+      "precision@0.5": 0.5516540917005224,
+      "recall@0.5": 0.3165431687619682,
+      "out_per_frame": 2.8716666666666666
+    },
+    "wrapper": {
+      "tag": "persist-drift sd=8.0",
+      "TP_stability": 0.5395956192080876,
+      "tp_kept": 1281,
+      "tp_prev": 2374,
+      "flicker_1frame": 653,
+      "miss_runs": 3763,
+      "mAP50": null,
+      "mAP50_95": null,
+      "precision@0.5": 0.3286193454809174,
+      "recall@0.5": 0.30329651941097724,
+      "out_per_frame": 4.59625
+    },
+    "fisher_tfm_vs_wrapper": 0.00035406502067916344,
+    "fisher_tfm_vs_off": 5.09841535827621e-09
+  }
+}

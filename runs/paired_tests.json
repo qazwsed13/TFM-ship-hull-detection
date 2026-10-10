@@ -1,0 +1,62 @@
+{
+  "s1": {
+    "common_transitions": 2326,
+    "all_transitions": 7928,
+    "P_kept_on_common": 0.7218400687876182,
+    "P_kept_off_common": 0.5064488392089423,
+    "mcnemar_b": 506,
+    "mcnemar_c": 5,
+    "mcnemar_p_two_sided": 8.57821818828012e-143,
+    "mcnemar_odds_ratio": 92.0909090909091,
+    "odds_ratio_ci95": [
+      39.74579529696742,
+      213.37440787949606
+    ],
+    "sustained_pair_b": 751,
+    "sustained_pair_c": 9,
+    "sustained_pair_p": 7.419344081260819e-209,
+    "n_tracks": 1442,
+    "wilcoxon_p": 2.375083005383061e-83,
+    "wilcoxon_median_diff": 0.0
+  },
+  "s2": {
+    "common_transitions": 2752,
+    "all_transitions": 7928,
+    "P_kept_on_common": 0.6613372093023255,
+    "P_kept_off_common": 0.5476017441860465,
+    "mcnemar_b": 317,
+    "mcnemar_c": 4,
+    "mcnemar_p_two_sided": 2.0584615665068126e-88,
+    "mcnemar_odds_ratio": 70.55555555555556,
+    "odds_ratio_ci95": [
+      27.824666206009017,
+      178.9091154911328
+    ],
+    "sustained_pair_b": 513,
+    "sustained_pair_c": 8,
+    "sustained_pair_p": 3.775108281899715e-140,
+    "n_tracks": 1649,
+    "wilcoxon_p": 4.953336043953462e-54,
+    "wilcoxon_median_diff": 0.0
+  },
+  "s3": {
+    "common_transitions": 2136,
+    "all_transitions": 7928,
+    "P_kept_on_common": 0.7148876404494382,
+    "P_kept_off_common": 0.5112359550561798,
+    "mcnemar_b": 440,
+    "mcnemar_c": 5,
+    "mcnemar_p_two_sided": 3.165547781717037e-123,
+    "mcnemar_odds_ratio": 80.0909090909091,
+    "odds_ratio_ci95": [
+      34.54332183620574,
+      185.6959139431984
+    ],
+    "sustained_pair_b": 655,
+    "sustained_pair_c": 5,
+    "sustained_pair_p": 4.3300586215176263e-187,
+    "n_tracks": 1345,
+    "wilcoxon_p": 6.380050976571905e-75,
+    "wilcoxon_median_diff": 0.0
+  }
+}

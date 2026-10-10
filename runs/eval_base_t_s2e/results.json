@@ -1,0 +1,55 @@
+{
+  "ckpt": "../runs/base_t_s2e/ep11.pt",
+  "variant": "base_t",
+  "test": {
+    "mAP@all": 0.0104906333212098,
+    "mAP50": 0.03970335937866194,
+    "mAP50_95": 0.0104906333212098,
+    "mAP@small": 0.00735416456419719,
+    "mAP@medium": 0.0134537858819349,
+    "mAP@large": 0.012481068214808554,
+    "AP50_per_class": [
+      0.06060827725978435,
+      0.043877018197574044,
+      0.026520773461755333,
+      0.0008986615659812024,
+      0.06661206640821479
+    ]
+  },
+  "video_test_hard_motion-gt_mem-on": {
+    "mAP50": 0.02143757152817712,
+    "mAP50_95": 0.0035359055398103516,
+    "mAP@small": 0.004685967512446555,
+    "TCM": 0.0364963503649635,
+    "tcm_pairs": 548,
+    "miss_runs": 235,
+    "flicker_1frame": 16,
+    "recovery_delay_avg": 1.6666666666666667,
+    "recovered_runs": 30,
+    "quick_recovered": 5,
+    "TP_stability": 0.08108108108108109,
+    "tp_kept": 3,
+    "tp_prev": 37,
+    "n_gt_frames": 790,
+    "n_frames": 144
+  },
+  "video_test_hard_motion-gt_mem-off": {
+    "mAP50": 0.01950704025600825,
+    "mAP50_95": 0.0033104009677039936,
+    "mAP@small": 0.004112626250513752,
+    "TCM": 0.029069767441860465,
+    "tcm_pairs": 516,
+    "miss_runs": 234,
+    "flicker_1frame": 15,
+    "recovery_delay_avg": 1.6785714285714286,
+    "recovered_runs": 28,
+    "quick_recovered": 4,
+    "TP_stability": 0.029411764705882353,
+    "tp_kept": 1,
+    "tp_prev": 34,
+    "n_gt_frames": 790,
+    "n_frames": 144
+  },
+  "fps_bs1": 76.12166969147006,
+  "fps_bs1_with_memory": 74.989076059944
+}
